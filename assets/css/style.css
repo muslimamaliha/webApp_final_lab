@@ -1,0 +1,412 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #172033
+}
+
+.nav-link {
+    border-radius: 8px;
+    font-weight: 500
+}
+
+.nav-link.active {
+    background: #e9ecef;
+    color: #111 !important;
+    font-weight: 700
+}
+
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8fbff, #eef4ff)
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: clamp(2.2rem, 5vw, 4rem)
+}
+
+.card {
+    border: 0;
+    border-radius: 18px;
+    box-shadow: 0 8px 28px rgba(20, 30, 50, .07)
+}
+
+.feature {
+    padding: 28px;
+    height: 100%
+}
+
+.stat {
+    font-size: 2rem;
+    font-weight: 800
+}
+
+.filterbar {
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 6px 22px rgba(20, 30, 50, .06)
+}
+
+.footer {
+    background: #fff;
+    border-top: 1px solid #e9ecef
+}
+
+.soft {
+    background: #eef2f7;
+    color: #253247
+}
+
+.table-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 28px rgba(20, 30, 50, .06)
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #172033;
+    text-decoration: none
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: #e9ecef;
+    font-weight: 700
+}
+
+.btn,
+.form-control,
+.form-select {
+    border-radius: 10px
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.site-footer {
+    background: #111;
+    color: #fff;
+}
+
+.site-footer h4,
+.site-footer h6 {
+    color: #fff;
+}
+
+.footer-text {
+    color: #b8b8b8;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+.footer-links {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #b8b8b8;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    padding-left: 3px;
+}
+
+.footer-line {
+    border-color: #333;
+    opacity: 1;
+}
+
+.footer-bottom-text {
+    color: #888;
+    font-size: 14px;
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .site-footer {
+        text-align: left;
+    }
+
+    .footer-bottom-text {
+        text-align: center;
+    }
+
+}
+
+.about-hero {
+    background: #f8f9fa;
+    padding: 90px 0;
+}
+
+.about-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.about-title {
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    margin-bottom: 22px;
+}
+
+.about-title span {
+    display: block;
+}
+
+.about-lead {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    max-width: 680px;
+}
+
+.about-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.about-hero-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 22px;
+    padding: 55px 35px;
+    text-align: center;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, .06);
+}
+
+.about-hero-icon {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.about-hero-card h4 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.about-hero-card p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.about-section {
+    padding: 85px 0;
+}
+
+.about-light {
+    background: #f8f9fa;
+}
+
+.about-small-title {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.about-section h2,
+.about-goal h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.about-text {
+    color: #666;
+    line-height: 1.85;
+    font-size: 16px;
+}
+
+.about-card {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 17px;
+    padding: 30px;
+    height: 100%;
+    transition: all .25s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .07);
+}
+
+.about-card-icon {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.about-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.about-card p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-card a {
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.about-card a:hover {
+    text-decoration: underline;
+}
+
+.about-process {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.process-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 22px;
+    border: 1px solid #e8e8e8;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.process-number {
+    min-width: 48px;
+    height: 48px;
+    background: #111;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.process-item h5 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.process-item p {
+    color: #777;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.about-goal {
+    background: #f8f9fa;
+    padding: 85px 0;
+}
+
+.goal-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.goal-content p {
+    color: #666;
+    line-height: 1.85;
+    font-size: 16px;
+}
+
+.about-cta-section {
+    padding: 80px 0;
+}
+
+.about-cta {
+    text-align: center;
+    background: #f8f9fa;
+    border: 1px solid #e7e7e7;
+    border-radius: 22px;
+    padding: 60px 25px;
+}
+
+.about-cta-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.about-cta h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.about-cta p {
+    color: #777;
+    max-width: 650px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .about-hero {
+        padding: 60px 0;
+    }
+
+    .about-title {
+        font-size: 38px;
+    }
+
+    .about-lead {
+        font-size: 16px;
+    }
+
+    .about-section {
+        padding: 60px 0;
+    }
+
+    .about-section h2,
+    .about-goal h2 {
+        font-size: 29px;
+    }
+
+    .about-hero-card {
+        padding: 40px 25px;
+    }
+
+    .about-cta {
+        padding: 45px 20px;
+    }
+
+    .about-cta h2 {
+        font-size: 28px;
+    }
+
+}

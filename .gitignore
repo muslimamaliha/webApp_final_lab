@@ -1,0 +1,26 @@
+# VS Code
+.vscode/
+
+# Local environment
+.env
+.env.*
+
+# PHP temporary/debug files
+*.log
+
+# Database backups/dumps
+*.sql.bak
+*.dump
+backup/
+backups/
+
+# Temporary password/setup files
+set_admin_password.php
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
